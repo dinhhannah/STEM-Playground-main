@@ -22,6 +22,9 @@ struct DIYhomepage: View {
           VStack {
            // Image("lava lamp")
             Link("lava lamp", destination: URL(string: "https://www.fizzicseducation.com.au/150-science-experiments/kitchen-chemistry-experiments/how-to-make-a-lava-lamp/")!)
+                  .font(.title3)
+                  .buttonStyle(.borderedProminent)
+                  .tint(buttoncolor)
               
           }
             
