@@ -24,8 +24,8 @@ struct DIYhomepage: View {
                     HStack{
                         
                         VStack{
-                            
-//                            Image("lava lamp")
+                            Text("")
+                                .multilineTextAlignment(.center)
                             
                             Button("lava lamp"){
                                 
