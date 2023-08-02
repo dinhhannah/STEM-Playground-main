@@ -14,6 +14,7 @@
 		3B497C6E2A7AC666008DB50E /* DIYhomepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B497C6D2A7AC666008DB50E /* DIYhomepage.swift */; };
 		3B497C722A7ADBD5008DB50E /* Playground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B497C712A7ADBD5008DB50E /* Playground.swift */; };
 		897859882A7AFCA20017BAEA /* Bryndan Write Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 897859872A7AFCA20017BAEA /* Bryndan Write Book.ttf */; };
+		8978598C2A7AFEF00017BAEA /* gbsans.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8978598B2A7AFEF00017BAEA /* gbsans.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		3B497C712A7ADBD5008DB50E /* Playground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Playground.swift; sourceTree = "<group>"; };
 		3B497C772A7AEA4B008DB50E /* STEM-Playground-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "STEM-Playground-Info.plist"; sourceTree = SOURCE_ROOT; };
 		897859872A7AFCA20017BAEA /* Bryndan Write Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bryndan Write Book.ttf"; sourceTree = "<group>"; };
+		8978598B2A7AFEF00017BAEA /* gbsans.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = gbsans.otf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +66,7 @@
 				3B497C6D2A7AC666008DB50E /* DIYhomepage.swift */,
 				3B497C712A7ADBD5008DB50E /* Playground.swift */,
 				897859872A7AFCA20017BAEA /* Bryndan Write Book.ttf */,
+				8978598B2A7AFEF00017BAEA /* gbsans.otf */,
 				3B497C612A79B0F1008DB50E /* Assets.xcassets */,
 				3B497C632A79B0F1008DB50E /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 				897859882A7AFCA20017BAEA /* Bryndan Write Book.ttf in Resources */,
 				3B497C652A79B0F1008DB50E /* Preview Assets.xcassets in Resources */,
 				3B497C622A79B0F1008DB50E /* Assets.xcassets in Resources */,
+				8978598C2A7AFEF00017BAEA /* gbsans.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

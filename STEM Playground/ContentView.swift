@@ -27,7 +27,7 @@ struct ContentView: View {
                                 .multilineTextAlignment(.center)
                             
                             NavigationLink(destination: Playground()){
-                                Text("Playground")
+                                Text("playground")
                             }
                             .font(.title3)
                             .buttonStyle(.borderedProminent)
@@ -40,6 +40,7 @@ struct ContentView: View {
                             
                             NavigationLink(destination: DIYhomepage()){
                                 Text("DIY")
+                                
                             }
                             .font(.title3)
                             .buttonStyle(.borderedProminent)
