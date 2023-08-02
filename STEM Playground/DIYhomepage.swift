@@ -15,7 +15,7 @@ struct DIYhomepage: View {
               .font(.custom("Bryndan Write Book", size:40))
           .fontWeight(.black)
           
-        Text("Click on the icon of the project you would like to complete!")
+        Text("click on the icon of the project you would like to complete!")
           .multilineTextAlignment(.center)
           
         HStack {
