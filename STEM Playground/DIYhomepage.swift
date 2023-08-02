@@ -2,14 +2,7 @@
 //  DIYhomepage.swift
 //  STEM Playground
 //
-//  Created by Chocolate Banana on 8/2/23.
-//
-
-//
-// DIYhomepage.swift
-// STEM Playground
-//
-// Created by Chocolate Banana on 8/2/23.
+//  Created by  on 8/2/23.
 //
 import SwiftUI
 struct DIYhomepage: View {
@@ -21,13 +14,16 @@ struct DIYhomepage: View {
         Text("DIY PROJECTS")
           .font(.title)
           .fontWeight(.black)
+          
         Text("Click on the icon of the project you would like to complete!")
           .multilineTextAlignment(.center)
+          
         HStack {
           VStack {
            // Image("lava lamp")
             Link("Lava Lamp", destination: URL(string: "https://www.fizzicseducation.com.au/150-science-experiments/kitchen-chemistry-experiments/how-to-make-a-lava-lamp/")!)
           }
+            
           VStack {
             Button("OOBLECK") {
             }
@@ -35,6 +31,7 @@ struct DIYhomepage: View {
             .buttonStyle(.borderedProminent)
             .tint(buttoncolor)
           }
+            
           VStack {
             Button("ROCKET") {
             }
@@ -50,6 +47,7 @@ struct DIYhomepage: View {
     }
   }
 }
+
 struct DIYhomepage_Previews: PreviewProvider {
   static var previews: some View {
     DIYhomepage()
