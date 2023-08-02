@@ -18,8 +18,7 @@ struct ContentView: View {
             ZStack {
                 VStack(alignment: .center, spacing: 20.0){
                     Text("WELCOME TO STEM PLAYGROUND!")
-                        .font(.title)
-                        .fontWeight(.black)
+                        .font(.custom("Bryndan Write Book", size:40))
                         .multilineTextAlignment(.center)
                     
                     HStack{
