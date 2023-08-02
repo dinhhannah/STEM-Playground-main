@@ -26,7 +26,7 @@ struct DIYhomepage: View {
         HStack {
           VStack {
            // Image("lava lamp")
-            Link("Lava Lamp", destination: URL(string: "https://www.fizzicseducation.com.au/150-science-experiments/kitchen-chemistry-experiments/how-to-make-a-lava-lamp/")!)
+            Link("lava lamp", destination: URL(string: "https://www.fizzicseducation.com.au/150-science-experiments/kitchen-chemistry-experiments/how-to-make-a-lava-lamp/")!)
               
           }
           VStack {
