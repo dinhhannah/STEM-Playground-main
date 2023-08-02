@@ -19,24 +19,25 @@ struct DIYhomepage: View {
     ZStack {
       VStack(alignment: .center, spacing: 20.0) {
         Text("DIY PROJECTS")
-          .font(.title)
+              .font(.custom("Bryndan Write Book", size:40))
           .fontWeight(.black)
-        Text("Click on the icon of the project you would like to complete!")
+        Text("click on the icon of the project you would like to complete!")
           .multilineTextAlignment(.center)
         HStack {
           VStack {
            // Image("lava lamp")
             Link("Lava Lamp", destination: URL(string: "https://www.fizzicseducation.com.au/150-science-experiments/kitchen-chemistry-experiments/how-to-make-a-lava-lamp/")!)
+              
           }
           VStack {
-            Button("OOBLECK") {
+            Button("oobleck") {
             }
             .font(.title3)
             .buttonStyle(.borderedProminent)
             .tint(buttoncolor)
           }
           VStack {
-            Button("ROCKET") {
+            Button("rocket") {
             }
             .font(.title3)
             .buttonStyle(.borderedProminent)

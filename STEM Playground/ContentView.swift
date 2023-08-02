@@ -23,7 +23,7 @@ struct ContentView: View {
                     
                     HStack{
                         VStack{
-                            Text("Playground is an interactive space to learn more about STEM")
+                            Text("playground is an interactive space to learn more about STEM")
                                 .multilineTextAlignment(.center)
                             
                             NavigationLink(destination: Playground()){
