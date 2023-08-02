@@ -5,6 +5,7 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>Bryndan Write Book.ttf</string>
+		<string>gbsans.otf</string>
 	</array>
 </dict>
 </plist>

@@ -16,8 +16,7 @@ struct DIYhomepage: View {
             ZStack{
                 VStack(alignment: .center, spacing: 20.0){
                     Text("DIY PROJECTS")
-                        .font(.title)
-                        .fontWeight(.black)
+                        .font(.custom("Bryndan Write Book", size:40))
                     
                     Text("Click on the icon of the project you would like to complete!")
                         .multilineTextAlignment(.center)
@@ -28,10 +27,9 @@ struct DIYhomepage: View {
                             
 //                            Image("lava lamp")
                             
-                            Button("LAVA LAMP"){
+                            Button("lava lamp"){
                                 
                             }
-                            .font(.title3)
                             .buttonStyle(.borderedProminent)
                             .tint(buttoncolor)
                         }
@@ -40,10 +38,9 @@ struct DIYhomepage: View {
                             Text("")
                                 .multilineTextAlignment(.center)
                             
-                            Button("OOBLECK"){
+                            Button("oobleck"){
                                 
                             }
-                            .font(.title3)
                             .buttonStyle(.borderedProminent)
                             .tint(buttoncolor)
                         }
@@ -52,10 +49,9 @@ struct DIYhomepage: View {
                             Text("")
                                 .multilineTextAlignment(.center)
                             
-                            Button("ROCKET"){
+                            Button("rocket"){
                                 
                             }
-                            .font(.title3)
                             .buttonStyle(.borderedProminent)
                             .tint(buttoncolor)
                             }
