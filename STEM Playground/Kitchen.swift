@@ -20,7 +20,7 @@ struct Kitchen: View {
             
             Button("Cake") {
                 box = "whitebox"
-                info = "i love to play bumper cars"
+                info = "As the batter gets warmer, the air inside it expands the stretchy part of the flour called gluten. Also, special ingredients release bubbles of carbon dioxide."
                 close = "X"
             }
             .padding(.top, 630)
