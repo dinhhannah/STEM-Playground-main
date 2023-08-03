@@ -45,10 +45,9 @@ struct Lab: View {
                     box = "whitebox"
                     info = "Flasks are used for making, storing, or measuring solutions and samples!"
                     close = "X"
-                    img = "flask"
                 }
-                .padding(.top, 80.0)
-                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+              //  .padding(.top, 80.0)
+               .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 
                 Button("Microscope") {
                     box = "whitebox"
