@@ -69,7 +69,7 @@ struct City: View {
                     
                 Spacer()
                 
-                NavigationLink(destination: Lab()){
+                NavigationLink(destination: Kitchen()){
                     Text("➡️")
                         .font(.largeTitle)
 //                        .fontWeight(.heavy)
