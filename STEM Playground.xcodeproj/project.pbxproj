@@ -16,6 +16,7 @@
 		3B497C912A7C2318008DB50E /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B497C902A7C2318008DB50E /* City.swift */; };
 		897859882A7AFCA20017BAEA /* Bryndan Write Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 897859872A7AFCA20017BAEA /* Bryndan Write Book.ttf */; };
 		8978598C2A7AFEF00017BAEA /* gbsans.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8978598B2A7AFEF00017BAEA /* gbsans.otf */; };
+		8978598E2A7C47E30017BAEA /* Kitchen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8978598D2A7C47E30017BAEA /* Kitchen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		3B497C902A7C2318008DB50E /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		897859872A7AFCA20017BAEA /* Bryndan Write Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bryndan Write Book.ttf"; sourceTree = "<group>"; };
 		8978598B2A7AFEF00017BAEA /* gbsans.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = gbsans.otf; sourceTree = "<group>"; };
+		8978598D2A7C47E30017BAEA /* Kitchen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kitchen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				3B497C6D2A7AC666008DB50E /* DIYhomepage.swift */,
 				3B497C8E2A7C1BDD008DB50E /* Lab.swift */,
 				3B497C902A7C2318008DB50E /* City.swift */,
+				8978598D2A7C47E30017BAEA /* Kitchen.swift */,
 				897859872A7AFCA20017BAEA /* Bryndan Write Book.ttf */,
 				8978598B2A7AFEF00017BAEA /* gbsans.otf */,
 				3B497C612A79B0F1008DB50E /* Assets.xcassets */,
@@ -160,6 +163,7 @@
 				3B497C912A7C2318008DB50E /* City.swift in Sources */,
 				3B497C6E2A7AC666008DB50E /* DIYhomepage.swift in Sources */,
 				3B497C5E2A79B0EE008DB50E /* STEM_PlaygroundApp.swift in Sources */,
+				8978598E2A7C47E30017BAEA /* Kitchen.swift in Sources */,
 				3B497C8F2A7C1BDD008DB50E /* Lab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
