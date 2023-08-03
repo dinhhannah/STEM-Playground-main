@@ -28,7 +28,6 @@ struct DIYhomepage: View {
                   .font(.title3)
                   .buttonStyle(.borderedProminent)
                   .tint(buttoncolor)
-            
           }
             
           VStack {

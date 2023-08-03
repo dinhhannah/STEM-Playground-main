@@ -60,19 +60,22 @@ struct City: View {
             
             HStack{
                 NavigationLink(destination: Lab()){
-                    Text("<")
+                    Text("⬅️")
                         .font(.largeTitle)
-                        .fontWeight(.heavy)
-                        .foregroundColor(Color.red)
+//                        .fontWeight(.heavy)
+//                        .foregroundColor(Color.red)
+//                        .background(Color.yellow)
                 }
                     
                 Spacer()
                 
                 NavigationLink(destination: Lab()){
-                    Text(">")
+                    Text("➡️")
                         .font(.largeTitle)
-                        .fontWeight(.heavy)
-                        .foregroundColor(Color.red)
+//                        .fontWeight(.heavy)
+//                        .foregroundColor(Color.red)
+//                        .background(Color.yellow)
+//                        .cornerRadius(10)
                 }
                     
             }
