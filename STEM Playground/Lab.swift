@@ -47,7 +47,8 @@ struct Lab: View {
                     close = "X"
                     img = "flask"
                 }
-              //  .padding(.top, 80.0)
+               .padding(.trailing, 80.0)
+               .padding(.top, 150.0)
                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 
                 Button("Microscope") {
