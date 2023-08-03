@@ -34,7 +34,7 @@ struct Lab: View {
            
                 Button("Bunsen Burner") {
                     box = "whitebox"
-                    info = "A Bunsen burner is a common piece of laboratory equipment used for heating chemical substances!"
+                    info = "A Bunsen Burner is a common piece of laboratory equipment used for heating chemical substances!"
                     close = "X"
                 }
                 .padding(.top, 230.0)
