@@ -29,7 +29,7 @@ struct City: View {
             
             Button("Sun") {
                 box = "whitebox"
-                info = "UV rays are a type of invisible radiation with a shorter wavelength than visible light. The sun is the most powerful source of UV radiation around us. However, prolonged exposure to UV rays can increase the risk of skin cancer for people. Therefore, it's important to protect ourselves from excessive UV exposure by using sunscreen and wearing protective clothing"
+                info = "UV rays are a type of invisible radiation with a shorter wavelength than visible light. The sun is the most powerful source of UV radiation around us."
                 close = "X"
             }
             .padding(.bottom, 700)
