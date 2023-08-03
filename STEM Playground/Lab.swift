@@ -5,6 +5,7 @@
 //  Created by  on 8/3/23.
 //
 
+// left trailing, right leading (Alena comment)
 import SwiftUI
 
 struct Lab: View {
@@ -20,20 +21,42 @@ struct Lab: View {
                     .aspectRatio(contentMode: .fill)
                     .ignoresSafeArea()
                 
+                //Try to make the button text bigger (I can't do it on my end)
+                Button("Plant") {
+                    box = "whitebox"
+                    info = "Plants are living things that grow from the soil and turn light from the Sun into food. With the help of a process called photosynthesis, plants produce their food."
+                    close = "X"
+                }
+               .padding(.bottom, 650)
+               .padding(.trailing, 150.0)
+               .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+           
+               
+                Button("Bunsen Burner") {
+                    box = "whitebox"
+                    info = "A Bunsen burner is a common piece of laboratory equipment. It is commonly used for heating chemical substances!"
+                    close = "X"
+                }
+                .padding(.top, 230.0)
+                .padding(.leading, 250)
+                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+        
                 Button("Flasks") {
                     box = "whitebox"
                     info = "Flasks are used for making, storing, or measuring solutions and samples!"
                     close = "X"
                 }
-                .padding(.top, 230.0)
+                .padding(.top, 80.0)
+                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 
                 Button("Microscope") {
                     box = "whitebox"
                     info = "Microscopes are used for seeing things up close!"
                     close = "X"
                 }
-                .padding(.top, 230.0)
+                .padding(.top, 220.0)
                 .padding(.trailing, 260.0)
+                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 
                 Image(box)
                 Text(info)
