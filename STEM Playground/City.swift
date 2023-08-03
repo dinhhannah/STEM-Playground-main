@@ -20,7 +20,7 @@ struct City: View {
             
             Button("Car") {
                 box = "whitebox"
-                info = "Vehicle pollutants are bad for our health and contain greenhouse gases that lead to climate change. When we burn gasoline and diesel fuel in vehicles, harmful byproducts like nitrogen dioxide and carbon monoxide are produced."
+                info = "Vehicle pollutants are bad for our health and contain greenhouse gases that lead to climate change. When we burn gasoline and diesel fuel in vehicles, harmful byproducts like nitrogen dioxide are produced."
                 close = "X"
             }
             .padding(.top, 630)
@@ -29,7 +29,7 @@ struct City: View {
             
             Button("Sun") {
                 box = "whitebox"
-                info = "UV rays are a type of invisible radiation with a shorter wavelength than visible light. The sun is the most powerful source of UV radiation around us. However, prolonged exposure to UV rays can increase the risk of skin cancer for people. Therefore, it's important to protect ourselves from excessive UV exposure, especially when spending time outdoors in the sun. Using sunscreen, wearing protective clothing, and seeking shade can help reduce this risk and keep our skin healthy."
+                info = "UV rays are a type of invisible radiation with a shorter wavelength than visible light. The sun is the most powerful source of UV radiation around us. However, prolonged exposure to UV rays can increase the risk of skin cancer for people. Therefore, it's important to protect ourselves from excessive UV exposure by using sunscreen and wearing protective clothing"
                 close = "X"
             }
             .padding(.bottom, 700)
