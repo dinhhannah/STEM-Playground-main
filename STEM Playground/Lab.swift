@@ -11,6 +11,7 @@ struct Lab: View {
     @State private var box = ""
     @State private var info = ""
     @State private var close = ""
+    @State private var img = ""
     
     var body: some View {
         NavigationStack{
@@ -24,6 +25,7 @@ struct Lab: View {
                     box = "whitebox"
                     info = "Flasks are used for making, storing, or measuring solutions and samples!"
                     close = "X"
+                    img = "flask"
                 }
                 .padding(.top, 230.0)
                 
@@ -38,13 +40,19 @@ struct Lab: View {
                 Image(box)
                 Text(info)
                     .multilineTextAlignment(.center)
-                    .padding(.trailing, 100)
-                    .padding(.leading, 100)
+                    .padding(.trailing, 110.0)
+                    .padding(.leading, 110.0)
+                    .padding(.bottom, 60.0)
+                Image(img)
+                    .resizable()
+                    .frame(width: 100, height: 100)
+                    .padding(.top, 100.0)
 
                 Button(close) {
                     box = ""
                     info = ""
                     close = ""
+                    img = ""
                 }
                 .padding(.bottom, 190.0)
                 .padding(.trailing, 190.0)
@@ -54,11 +62,12 @@ struct Lab: View {
                     Spacer()
                     
                     NavigationLink(destination: City()){
-                        Text(">>")
+                        Text("➡️...")
                             .font(.largeTitle)
                             .fontWeight(.heavy)
-                            .foregroundColor(Color.red)
+                            .foregroundColor(Color.blue)
                     }
+                    
                     
                 }
             }
