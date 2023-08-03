@@ -29,10 +29,6 @@ struct DIYhomepage: View {
                             NavigationLink(destination: lavalamp()) {
                                 Text("Lava Lamp")
                             }
-                            // Link("Lava Lamp", destination: URL(string: "https://www.fizzicseducation.com.au/150-science-experiments/kitchen-chemistry-experiments/how-to-make-a-lava-lamp/")!)
-                            // .font(.title3)
-                            // .buttonStyle(.borderedProminent)
-                            //  .tint(buttoncolor)
                             
                         }
                         
