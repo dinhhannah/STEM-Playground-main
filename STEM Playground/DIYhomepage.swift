@@ -23,6 +23,7 @@ struct DIYhomepage: View {
               Image("lava lamp")
                   .resizable()
                   .frame(width: 50, height: 200)
+              
             Link("Lava Lamp", destination: URL(string: "https://www.fizzicseducation.com.au/150-science-experiments/kitchen-chemistry-experiments/how-to-make-a-lava-lamp/")!)
                   .font(.title3)
                   .buttonStyle(.borderedProminent)
@@ -34,6 +35,7 @@ struct DIYhomepage: View {
               Image("oobleck")
                   .resizable()
                   .frame(width: 50, height: 200)
+              
               Link("Oobleck", destination: URL(string: "https://learning.sciencemuseumgroup.org.uk/resources/oozing-oobleck/#:~:text=Put%20a%20heaped%20amount%20of,what%20happens%20when%20you%20stop")!)
                     .font(.title3)
                     .buttonStyle(.borderedProminent)
@@ -44,6 +46,7 @@ struct DIYhomepage: View {
               Image("rocket")
                   .resizable()
                   .frame(width: 80, height: 200)
+              
               Link("Rocket", destination: URL(string: "https://www.123homeschool4me.com/soda-rocket-science-experiment-for-kids_49/")!)
                     .font(.title3)
                     .buttonStyle(.borderedProminent)
