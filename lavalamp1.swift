@@ -12,9 +12,10 @@ struct lavalamp1: View {
         NavigationStack {
             Text("Step 1:")
                 .fontWeight(.bold)
+            Image("lavalampstep1")
             Text(" \n Fill the bottle about halfway with water and add a few drops of food coloring")
                 .multilineTextAlignment(.center)
-            Image("lavalampstep1")
+            
             
         }
     }
