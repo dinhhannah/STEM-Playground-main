@@ -1,43 +1,43 @@
 //
-//  City.swift
+//  Kitchen.swift
 //  STEM Playground
 //
-//  Created by Chocolate Banana on 8/3/23.
+//  Created by Shreya Aravind on 8/3/23.
 //
 
 import SwiftUI
 
-struct City: View {
+struct Kitchen: View {
     @State private var box = ""
     @State private var info = ""
     @State private var close = ""
     
     var body: some View {
         ZStack{
-            Image("cityscene")
+            Image("kitchen")
                 .resizable(resizingMode: .stretch)
                 .ignoresSafeArea()
             
-            Button("Car") {
+            Button("Cake") {
                 box = "whitebox"
-                info = "Vehicle pollutants are bad for our health and contain greenhouse gases that lead to climate change. When we burn gasoline and diesel fuel in vehicles, harmful byproducts like nitrogen dioxide are produced."
+                info = "As the batter gets warmer, the air inside it expands the stretchy part of the flour called gluten. Also, special ingredients release bubbles of carbon dioxide."
                 close = "X"
             }
             .padding(.top, 630)
             .padding(.leading, 110)
             
             
-            Button("Sun") {
+            Button("Oil") {
                 box = "whitebox"
-                info = "UV rays are a type of invisible radiation with a shorter wavelength than visible light. The sun is the most powerful source of UV radiation around us."
+                info = "oil and water density"
                 close = "X"
             }
-            .padding(.bottom, 700)
-            .padding(.trailing, 200)
+            .padding(.bottom, 740.0)
+            .padding(.trailing, 280.0)
             
-            Button("Pollution and Smog") {
+            Button("Baking Powder") {
                 box = "whitebox"
-                info = "In factories, harmful materials and gases, such as carbon dioxide and methane, are burned and released into the air. These gases absorb sunlight and directly impact the planet's temperature."
+                info = "not cool thumbs down"
                 close = "X"
             }
             .padding(.bottom, 400)
@@ -59,7 +59,7 @@ struct City: View {
             .foregroundColor(Color.red)
             
             HStack{
-                NavigationLink(destination: Lab()){
+                NavigationLink(destination: City()){
                     Text("⬅️")
                         .font(.largeTitle)
 //                        .fontWeight(.heavy)
@@ -69,7 +69,7 @@ struct City: View {
                     
                 Spacer()
                 
-                NavigationLink(destination: Kitchen()){
+                NavigationLink(destination: Lab()){
                     Text("➡️")
                         .font(.largeTitle)
 //                        .fontWeight(.heavy)
@@ -84,8 +84,8 @@ struct City: View {
     }
 }
 
-struct City_Previews: PreviewProvider {
+struct Kitchen_Previews: PreviewProvider {
     static var previews: some View {
-        City()
+        Kitchen()
     }
 }

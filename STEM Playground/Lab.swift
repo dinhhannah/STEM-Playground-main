@@ -25,17 +25,16 @@ struct Lab: View {
                 //Try to make the button text bigger (I can't do it on my end)
                 Button("Plant") {
                     box = "whitebox"
-                    info = "Plants are living things that grow from the soil and turn light from the Sun into food. With the help of a process called photosynthesis, plants produce their food."
+                    info = "Plants are living things that grow from the soil and turn light from the Sun into food thtough a process called photosynthesis."
                     close = "X"
                 }
                .padding(.bottom, 650)
                .padding(.trailing, 150.0)
                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
            
-               
                 Button("Bunsen Burner") {
                     box = "whitebox"
-                    info = "A Bunsen burner is a common piece of laboratory equipment. It is commonly used for heating chemical substances!"
+                    info = "A Bunsen Burner is a common piece of laboratory equipment used for heating chemical substances!"
                     close = "X"
                 }
                 .padding(.top, 230.0)
@@ -48,8 +47,8 @@ struct Lab: View {
                     close = "X"
                     img = "flask"
                 }
-                .padding(.top, 80.0)
-                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+              //  .padding(.top, 80.0)
+               .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 
                 Button("Microscope") {
                     box = "whitebox"
