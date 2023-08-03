@@ -17,6 +17,9 @@
 		897859882A7AFCA20017BAEA /* Bryndan Write Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 897859872A7AFCA20017BAEA /* Bryndan Write Book.ttf */; };
 		8978598C2A7AFEF00017BAEA /* gbsans.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8978598B2A7AFEF00017BAEA /* gbsans.otf */; };
 		8978598E2A7C47E30017BAEA /* Kitchen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8978598D2A7C47E30017BAEA /* Kitchen.swift */; };
+		B04EEE112A7C4D3200D98301 /* lavalamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EEE102A7C4D3200D98301 /* lavalamp.swift */; };
+		B04EEE132A7C4D4B00D98301 /* lavalamp1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EEE122A7C4D4B00D98301 /* lavalamp1.swift */; };
+		B04EEE152A7C4DF700D98301 /* lavalamp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EEE142A7C4DF700D98301 /* lavalamp2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		897859872A7AFCA20017BAEA /* Bryndan Write Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bryndan Write Book.ttf"; sourceTree = "<group>"; };
 		8978598B2A7AFEF00017BAEA /* gbsans.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = gbsans.otf; sourceTree = "<group>"; };
 		8978598D2A7C47E30017BAEA /* Kitchen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kitchen.swift; sourceTree = "<group>"; };
+		B04EEE102A7C4D3200D98301 /* lavalamp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = lavalamp.swift; path = "../../STEM-Playground-main/lavalamp.swift"; sourceTree = "<group>"; };
+		B04EEE122A7C4D4B00D98301 /* lavalamp1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = lavalamp1.swift; path = "../../STEM-Playground-main/lavalamp1.swift"; sourceTree = "<group>"; };
+		B04EEE142A7C4DF700D98301 /* lavalamp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lavalamp2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 			children = (
 				3B497C772A7AEA4B008DB50E /* STEM-Playground-Info.plist */,
 				3B497C5D2A79B0EE008DB50E /* STEM_PlaygroundApp.swift */,
+				B04EEE122A7C4D4B00D98301 /* lavalamp1.swift */,
+				B04EEE142A7C4DF700D98301 /* lavalamp2.swift */,
+				B04EEE102A7C4D3200D98301 /* lavalamp.swift */,
 				3B497C5F2A79B0EE008DB50E /* ContentView.swift */,
 				3B497C6D2A7AC666008DB50E /* DIYhomepage.swift */,
 				3B497C8E2A7C1BDD008DB50E /* Lab.swift */,
@@ -160,7 +169,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B497C602A79B0EE008DB50E /* ContentView.swift in Sources */,
+				B04EEE132A7C4D4B00D98301 /* lavalamp1.swift in Sources */,
 				3B497C912A7C2318008DB50E /* City.swift in Sources */,
+				B04EEE152A7C4DF700D98301 /* lavalamp2.swift in Sources */,
+				B04EEE112A7C4D3200D98301 /* lavalamp.swift in Sources */,
 				3B497C6E2A7AC666008DB50E /* DIYhomepage.swift in Sources */,
 				3B497C5E2A79B0EE008DB50E /* STEM_PlaygroundApp.swift in Sources */,
 				8978598E2A7C47E30017BAEA /* Kitchen.swift in Sources */,
