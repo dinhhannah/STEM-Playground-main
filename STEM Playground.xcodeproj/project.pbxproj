@@ -16,6 +16,8 @@
 		3B497C912A7C2318008DB50E /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B497C902A7C2318008DB50E /* City.swift */; };
 		897859882A7AFCA20017BAEA /* Bryndan Write Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 897859872A7AFCA20017BAEA /* Bryndan Write Book.ttf */; };
 		8978598C2A7AFEF00017BAEA /* gbsans.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8978598B2A7AFEF00017BAEA /* gbsans.otf */; };
+		B04EEE052A7C418900D98301 /* lavalamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EEE042A7C418900D98301 /* lavalamp.swift */; };
+		B04EEE072A7C43A200D98301 /* lavalamp1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EEE062A7C43A200D98301 /* lavalamp1.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		3B497C902A7C2318008DB50E /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		897859872A7AFCA20017BAEA /* Bryndan Write Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bryndan Write Book.ttf"; sourceTree = "<group>"; };
 		8978598B2A7AFEF00017BAEA /* gbsans.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = gbsans.otf; sourceTree = "<group>"; };
+		B04EEE042A7C418900D98301 /* lavalamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lavalamp.swift; sourceTree = "<group>"; };
+		B04EEE062A7C43A200D98301 /* lavalamp1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lavalamp1.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +50,8 @@
 		3B497C512A79B0EE008DB50E = {
 			isa = PBXGroup;
 			children = (
+				B04EEE042A7C418900D98301 /* lavalamp.swift */,
+				B04EEE062A7C43A200D98301 /* lavalamp1.swift */,
 				3B497C5C2A79B0EE008DB50E /* STEM Playground */,
 				3B497C5B2A79B0EE008DB50E /* Products */,
 			);
@@ -157,6 +163,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B497C602A79B0EE008DB50E /* ContentView.swift in Sources */,
+				B04EEE072A7C43A200D98301 /* lavalamp1.swift in Sources */,
+				B04EEE052A7C418900D98301 /* lavalamp.swift in Sources */,
 				3B497C912A7C2318008DB50E /* City.swift in Sources */,
 				3B497C6E2A7AC666008DB50E /* DIYhomepage.swift in Sources */,
 				3B497C5E2A79B0EE008DB50E /* STEM_PlaygroundApp.swift in Sources */,
