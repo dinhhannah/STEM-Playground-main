@@ -50,8 +50,6 @@
 		3B497C512A79B0EE008DB50E = {
 			isa = PBXGroup;
 			children = (
-				B04EEE042A7C418900D98301 /* lavalamp.swift */,
-				B04EEE062A7C43A200D98301 /* lavalamp1.swift */,
 				3B497C5C2A79B0EE008DB50E /* STEM Playground */,
 				3B497C5B2A79B0EE008DB50E /* Products */,
 			);
@@ -68,6 +66,8 @@
 		3B497C5C2A79B0EE008DB50E /* STEM Playground */ = {
 			isa = PBXGroup;
 			children = (
+				B04EEE042A7C418900D98301 /* lavalamp.swift */,
+				B04EEE062A7C43A200D98301 /* lavalamp1.swift */,
 				3B497C772A7AEA4B008DB50E /* STEM-Playground-Info.plist */,
 				3B497C5D2A79B0EE008DB50E /* STEM_PlaygroundApp.swift */,
 				3B497C5F2A79B0EE008DB50E /* ContentView.swift */,
