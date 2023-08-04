@@ -21,36 +21,37 @@ struct KitchenNew: View {
                     .ignoresSafeArea()
                 
                 //Try to make the button text bigger (I can't do it on my end)
-                Button("Oil") {
-                    box = "whitebox"
-                    info = "Plants are living things that grow from the soil and turn light from the Sun into food thtough a process called photosynthesis."
-                    close = "X"
-                }
-               .padding(.top, 100)
-               .padding(.leading, 140.0)
-               .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-           
-                Button("Cake") {
-                    box = "whitebox"
-                    info = "Baking and cooking are applied sciences"
-                    close = "X"
-                }
-                .padding(.top, 400.0)
-                .padding(.leading, 200)
-                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
-        
                 Button("Baking Powder") {
                     box = "whitebox"
                     info = "suspicious white dust"
                     close = "X"
                 }
+               .padding(.bottom, 650)
+               .padding(.trailing, 150.0)
+               .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+           
+                Button("Cake") {
+                    box = "whitebox"
+                    info = "Cooking and baking are types of applied sciences"
+                    close = "X"
+                }
+                .padding(.top, 500.0)
+                .padding(.leading, 230)
+                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+        
+                Button("oil") {
+                    box = "whitebox"
+                    info = "Cooking and baking are types of applied sciences"
+                    close = "X"
+                    img = "flask"
+                }
                .padding(.trailing, 80.0)
-               .padding(.bottom, 300.0)
+               .padding(.top, 150.0)
                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 
-                Button("fridge") {
+                Button("Fridge and Microwave") {
                     box = "whitebox"
-                    info = "is your fridge running? then you'd better go catch it!"
+                    info = "One uses energy to heat up food, the other uses energy to keep food cold and make it last longer"
                     close = "X"
                 }
                 .padding(.top, 220.0)
@@ -87,6 +88,8 @@ struct KitchenNew: View {
                             .fontWeight(.heavy)
                             .foregroundColor(Color.blue)
                     }
+                    
+                    
                 }
             }
             .padding(.horizontal)
