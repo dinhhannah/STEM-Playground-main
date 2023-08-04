@@ -89,8 +89,6 @@ struct Lab: View {
                             .fontWeight(.heavy)
                             .foregroundColor(Color.blue)
                     }
-                    
-                    
                 }
             }
             .padding(.horizontal)

@@ -28,9 +28,10 @@ struct DIYhomepage: View {
                             
                             NavigationLink(destination: lavalamp()) {
                                 Text("Lava Lamp")
-                                    .font(.title3)
-                                    .buttonStyle(.borderedProminent)
-                                    .tint(buttoncolor)
+                                    .frame(width: 100, height: 30, alignment: .center)
+                                    .background(Color.red)
+                                    .foregroundColor(Color.white)
+                                    .cornerRadius(20)
                             }
                             
                         }
@@ -42,6 +43,10 @@ struct DIYhomepage: View {
                             
                             NavigationLink(destination: newoobleck1()) {
                                 Text("Oobleck")
+                                    .frame(width: 100, height: 30, alignment: .center)
+                                    .background(Color.red)
+                                    .foregroundColor(Color.white)
+                                    .cornerRadius(20)
                             }
                         }
                             
@@ -52,6 +57,10 @@ struct DIYhomepage: View {
                                 
                                 NavigationLink(destination: newrocket ()) {
                                     Text("Rocket")
+                                        .frame(width: 100, height: 30, alignment: .center)
+                                        .background(Color.red)
+                                        .foregroundColor(Color.white)
+                                        .cornerRadius(20)
                                 }
                             }
                         }
