@@ -20,7 +20,9 @@ struct ContentView: View {
                     Text("WELCOME TO STEM PLAYGROUND!")
                         .font(.custom("Bryndan Write Book", size:40))
                         .multilineTextAlignment(.center)
-                    
+                    Image("stem")
+                        .resizable(resizingMode: .stretch)
+                        .aspectRatio(contentMode: .fit)
                     HStack{
                         VStack{
                             Text("Playground is an interactive space to learn more about STEM")
