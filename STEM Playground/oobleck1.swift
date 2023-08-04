@@ -30,9 +30,9 @@ struct oobleck1: View {
     }
 }
 
-struct add image: PreviewProvider {
+struct oobleck1_Previews: PreviewProvider {
     static var previews: some View {
-       add image()
+      oobleck1()
     }
 }
 
