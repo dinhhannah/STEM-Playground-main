@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct oobleck2: View {
+struct oobleck: View {
     var body: some View {
         NavigationStack {
             Text("Are you ready to make some oobleck?!\n \n \n")
@@ -20,7 +20,7 @@ struct oobleck2: View {
                 .font(.headline)
                 .multilineTextAlignment(.center)
             
-            NavigationLink(destination: oobleck()) {
+            NavigationLink(destination: oobleck1()) {
                 Text("\n \n \n Start!")
                     .font(.title2)
                     .fontWeight(.bold)

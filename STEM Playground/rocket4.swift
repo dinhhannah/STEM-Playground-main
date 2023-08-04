@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct rocket4: View {
+struct rocket4: View{
     var body: some View {
             NavigationStack {
                 Text("Step 4")

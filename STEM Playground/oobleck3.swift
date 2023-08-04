@@ -29,10 +29,3 @@ struct oobleck3: View {
         }
     }
 }
-
-struct add image: PreviewProvider {
-    static var previews: some View {
-       add image()
-    }
-}
-

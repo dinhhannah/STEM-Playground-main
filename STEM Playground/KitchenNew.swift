@@ -20,7 +20,6 @@ struct KitchenNew: View {
                     .resizable(resizingMode: .stretch)
                     .ignoresSafeArea()
                 
-                //Try to make the button text bigger (I can't do it on my end)
                 Button("Baking Powder") {
                     box = "whitebox"
                     info = "suspicious white dust"
@@ -43,7 +42,6 @@ struct KitchenNew: View {
                     box = "whitebox"
                     info = "Cooking and baking are types of applied sciences"
                     close = "X"
-                    img = "flask"
                 }
                .padding(.trailing, 80.0)
                .padding(.top, 150.0)
@@ -86,7 +84,7 @@ struct KitchenNew: View {
                         Text("➡️...")
                             .font(.largeTitle)
                             .fontWeight(.heavy)
-                            .foregroundColor(Color.blue)
+                            .foregroundColor(Color.white)
                     }
                     
                     
