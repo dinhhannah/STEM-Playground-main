@@ -16,11 +16,11 @@ struct lavalamp1: View {
             Text(" \n Fill the bottle about halfway with water and add a few drops of food coloring")
                 .multilineTextAlignment(.center)
             
-           // NavigationLink(destination: lavalamp2()) {
-               // Text("Next")
-                   // .fontWeight(.bold)
-                  //  .foregroundColor(Color.red)
-           // }
+           NavigationLink(destination: lavalamp2()) {
+               Text("\n Next")
+                   .fontWeight(.bold)
+                   .foregroundColor(Color.red)
+            }
         }
     }
     

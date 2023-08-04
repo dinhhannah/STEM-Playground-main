@@ -9,12 +9,39 @@ import SwiftUI
 
 struct oobleck: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            Text("Are you ready to make some oobleck?!\n \n \n")
+                .font(.title)
+                .fontWeight(.bold)
+                .foregroundColor(Color.purple)
+                .multilineTextAlignment(.center)
+            
+            Text("You will need the following: \n - One cup of water \n - One cup of cornflour \n - A spoon  \n - A bowl or tray")
+                .font(.headline)
+                .multilineTextAlignment(.center)
+            
+            NavigationLink(destination: oobleck()) {
+                Text("\n \n \n Start!")
+                    .font(.title2)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color.blue)
+                    .multilineTextAlignment(.center)
+                
+            }
+            
+            
+        }
     }
+    
+    struct rocket_Previews: PreviewProvider {
+        static var previews: some View {
+            rocket()
+        }
+    }
+    
+    
+    
+    
+    
 }
 
-struct oobleck_Previews: PreviewProvider {
-    static var previews: some View {
-        oobleck()
-    }
-}
