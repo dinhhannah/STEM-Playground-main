@@ -129,15 +129,6 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		3BA21A282A7D765000081C34 /* Playground */ = {
-			isa = PBXGroup;
-			children = (
-				3B497C8E2A7C1BDD008DB50E /* Lab.swift */,
-				3B497C902A7C2318008DB50E /* City.swift */,
-			);
-			path = Playground;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */

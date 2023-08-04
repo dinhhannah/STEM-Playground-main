@@ -10,7 +10,7 @@ import SwiftUI
 struct newoobleck3: View {
     var body: some View {
         NavigationStack {
-            Text("Step 3")
+            Text("Step 2")
                 .fontWeight(.bold)
             
             Image("oobleck 3")
@@ -19,7 +19,6 @@ struct newoobleck3: View {
             
             Text(" \n Now you can play with the oobleck – try stirring it in the bowl with a spoon.")
                 .multilineTextAlignment(.center)
-            
             
             NavigationLink(destination: newoobleck4()) {
                 Text("Next")

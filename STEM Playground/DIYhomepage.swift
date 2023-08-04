@@ -5,6 +5,7 @@
 //  Created by  on 8/2/23.
 //
 import SwiftUI
+
 struct DIYhomepage: View {
     let backgroundColor: Color = Color(red: 248/255, green: 245/255, blue: 235/255)
     let buttoncolor: Color = Color(red: 255/255, green: 68/255, blue: 58/255)
@@ -27,6 +28,9 @@ struct DIYhomepage: View {
                             
                             NavigationLink(destination: lavalamp()) {
                                 Text("Lava Lamp")
+                                    .font(.title3)
+                                    .buttonStyle(.borderedProminent)
+                                    .tint(buttoncolor)
                             }
                             
                         }
@@ -39,6 +43,7 @@ struct DIYhomepage: View {
                             NavigationLink(destination: newoobleck1()) {
                                 Text("Oobleck")
                             }
+                        }
                             
                             VStack {
                                 Image("rocket")
@@ -50,15 +55,15 @@ struct DIYhomepage: View {
                                 }
                             }
                         }
-                  //      .padding()
-                 //       .frame(maxWidth: .infinity, maxHeight: .infinity)
-                    //    .background(backgroundColor)
+                        .padding()
+                        .frame(maxWidth: .infinity, maxHeight: .infinity)
+                        .background(backgroundColor)
                     }
                 }
             }
         }
-            }
-        }
+}
+        
         
         struct DIYhomepage_Previews: PreviewProvider {
             static var previews: some View {

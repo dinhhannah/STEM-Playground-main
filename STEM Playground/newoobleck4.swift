@@ -10,7 +10,7 @@ import SwiftUI
 struct newoobleck4: View {
     var body: some View {
         NavigationStack {
-            Text("Step 4")
+            Text("Step 3")
                 .fontWeight(.bold)
             
             Image("oobleck 4")
@@ -20,7 +20,6 @@ struct newoobleck4: View {
             Text(" \n Roll the oobleck into a ball in your hand and see what happens when you stop." )
                 .multilineTextAlignment(.center)
             
-            
             NavigationLink(destination: DIYhomepage ()) {
                 Text("Try another experiment!")
                     .fontWeight(.bold)
@@ -29,7 +28,7 @@ struct newoobleck4: View {
             
         }
     }
-        }
+}
         
         struct newoobleck4_Previews: PreviewProvider {
             static var previews: some View {
