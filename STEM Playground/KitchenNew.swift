@@ -26,24 +26,23 @@ struct KitchenNew: View {
                     info = "Plants are living things that grow from the soil and turn light from the Sun into food thtough a process called photosynthesis."
                     close = "X"
                 }
-               .padding(.bottom, 650)
-               .padding(.trailing, 150.0)
+               .padding(.top, 100)
+               .padding(.leading, 140.0)
                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
            
                 Button("Cake") {
                     box = "whitebox"
-                    info = "Baking and cooking is appplied science"
+                    info = "Baking and cooking are applied sciences"
                     close = "X"
                 }
-                .padding(.top, 230.0)
-                .padding(.leading, 250)
+                .padding(.top, 400.0)
+                .padding(.leading, 200)
                 .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
         
                 Button("Baking Powder") {
                     box = "whitebox"
-                    info = "Flasks are used for making, storing, or measuring solutions and samples!"
+                    info = "suspicious white dust"
                     close = "X"
-                    img = "flask"
                 }
                .padding(.trailing, 80.0)
                .padding(.bottom, 300.0)
@@ -51,7 +50,7 @@ struct KitchenNew: View {
                 
                 Button("fridge") {
                     box = "whitebox"
-                    info = "Microscopes are used for seeing things up close!"
+                    info = "is your fridge running? then you'd better go catch it!"
                     close = "X"
                 }
                 .padding(.top, 220.0)
@@ -88,8 +87,6 @@ struct KitchenNew: View {
                             .fontWeight(.heavy)
                             .foregroundColor(Color.blue)
                     }
-                    
-                    
                 }
             }
             .padding(.horizontal)
