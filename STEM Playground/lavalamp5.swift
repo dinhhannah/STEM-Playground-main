@@ -13,7 +13,7 @@ struct lavalamp5: View {
             Image("confetti")
                 .aspectRatio(contentMode: .fill)
                 
-            Text("Step 5:")
+            Text("Step 5")
                 .fontWeight(.bold)
             Text("Show all of your friends and family your new cool lava lamp! Congratulations on completing this science experiment! You rock! \n")
                 .multilineTextAlignment(.center)
