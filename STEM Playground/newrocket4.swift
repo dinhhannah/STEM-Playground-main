@@ -23,7 +23,7 @@ struct newrocket4: View {
             
             NavigationLink(destination: DIYhomepage ()) {
              Text("Try a new one!")
-             .fontWeight(.bold)
+              .fontWeight(.bold)
               .foregroundColor(Color.blue)
              }
             

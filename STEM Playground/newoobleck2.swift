@@ -23,8 +23,10 @@ struct newoobleck2: View {
             
             NavigationLink(destination: newoobleck3()) {
                 Text("Next")
-                    .fontWeight(.bold)
-                    .foregroundColor(Color.red)
+                    .frame(width: 100, height: 30, alignment: .center)
+                    .background(Color.red)
+                    .foregroundColor(Color.white)
+                    .cornerRadius(15)
             }
         }
         }

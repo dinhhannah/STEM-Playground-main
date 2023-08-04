@@ -10,7 +10,7 @@ import SwiftUI
 struct newoobleck4: View {
     var body: some View {
         NavigationStack {
-            Text("Step 3")
+            Text("Step 4")
                 .fontWeight(.bold)
             
             Image("oobleck 4")
