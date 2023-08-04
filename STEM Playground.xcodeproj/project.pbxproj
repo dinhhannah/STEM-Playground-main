@@ -16,6 +16,21 @@
 		3B497C912A7C2318008DB50E /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B497C902A7C2318008DB50E /* City.swift */; };
 		897859882A7AFCA20017BAEA /* Bryndan Write Book.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 897859872A7AFCA20017BAEA /* Bryndan Write Book.ttf */; };
 		8978598C2A7AFEF00017BAEA /* gbsans.otf in Resources */ = {isa = PBXBuildFile; fileRef = 8978598B2A7AFEF00017BAEA /* gbsans.otf */; };
+		B04EEE052A7C418900D98301 /* lavalamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EEE042A7C418900D98301 /* lavalamp.swift */; };
+		B04EEE072A7C43A200D98301 /* lavalamp1.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04EEE062A7C43A200D98301 /* lavalamp1.swift */; };
+		B0737BCF2A7D4D8B00424AD4 /* lavalamp2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0737BCE2A7D4D8B00424AD4 /* lavalamp2.swift */; };
+		B0737BD12A7D4F5900424AD4 /* lavalamp3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0737BD02A7D4F5800424AD4 /* lavalamp3.swift */; };
+		B0737BD52A7D509800424AD4 /* lavalamp4.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0737BD42A7D509800424AD4 /* lavalamp4.swift */; };
+		B0737BD72A7D516B00424AD4 /* lavalamp5.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0737BD62A7D516B00424AD4 /* lavalamp5.swift */; };
+		BE7018002A7D77E300ACEF6E /* newrocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7017FF2A7D77E200ACEF6E /* newrocket.swift */; };
+		BE7018022A7D784300ACEF6E /* newrocket1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7018012A7D784300ACEF6E /* newrocket1.swift */; };
+		BE7018042A7D78C200ACEF6E /* newrocket2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7018032A7D78C200ACEF6E /* newrocket2.swift */; };
+		BE7018062A7D795900ACEF6E /* newrocket3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7018052A7D795900ACEF6E /* newrocket3.swift */; };
+		BE7018082A7D799A00ACEF6E /* newrocket4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7018072A7D799A00ACEF6E /* newrocket4.swift */; };
+		BE70180A2A7D7B5800ACEF6E /* newoobleck1.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7018092A7D7B5800ACEF6E /* newoobleck1.swift */; };
+		BE70180C2A7D7BA100ACEF6E /* newoobleck2.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70180B2A7D7BA100ACEF6E /* newoobleck2.swift */; };
+		BE70180E2A7D7C6200ACEF6E /* newoobleck3.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70180D2A7D7C6200ACEF6E /* newoobleck3.swift */; };
+		BE7018102A7D7CBB00ACEF6E /* newoobleck4.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE70180F2A7D7CBB00ACEF6E /* newoobleck4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +45,21 @@
 		3B497C902A7C2318008DB50E /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		897859872A7AFCA20017BAEA /* Bryndan Write Book.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bryndan Write Book.ttf"; sourceTree = "<group>"; };
 		8978598B2A7AFEF00017BAEA /* gbsans.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = gbsans.otf; sourceTree = "<group>"; };
+		B04EEE042A7C418900D98301 /* lavalamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lavalamp.swift; sourceTree = "<group>"; };
+		B04EEE062A7C43A200D98301 /* lavalamp1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lavalamp1.swift; sourceTree = "<group>"; };
+		B0737BCE2A7D4D8B00424AD4 /* lavalamp2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lavalamp2.swift; sourceTree = "<group>"; };
+		B0737BD02A7D4F5800424AD4 /* lavalamp3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lavalamp3.swift; sourceTree = "<group>"; };
+		B0737BD42A7D509800424AD4 /* lavalamp4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lavalamp4.swift; sourceTree = "<group>"; };
+		B0737BD62A7D516B00424AD4 /* lavalamp5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lavalamp5.swift; sourceTree = "<group>"; };
+		BE7017FF2A7D77E200ACEF6E /* newrocket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newrocket.swift; sourceTree = "<group>"; };
+		BE7018012A7D784300ACEF6E /* newrocket1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newrocket1.swift; sourceTree = "<group>"; };
+		BE7018032A7D78C200ACEF6E /* newrocket2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newrocket2.swift; sourceTree = "<group>"; };
+		BE7018052A7D795900ACEF6E /* newrocket3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newrocket3.swift; sourceTree = "<group>"; };
+		BE7018072A7D799A00ACEF6E /* newrocket4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newrocket4.swift; sourceTree = "<group>"; };
+		BE7018092A7D7B5800ACEF6E /* newoobleck1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newoobleck1.swift; sourceTree = "<group>"; };
+		BE70180B2A7D7BA100ACEF6E /* newoobleck2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newoobleck2.swift; sourceTree = "<group>"; };
+		BE70180D2A7D7C6200ACEF6E /* newoobleck3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newoobleck3.swift; sourceTree = "<group>"; };
+		BE70180F2A7D7CBB00ACEF6E /* newoobleck4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newoobleck4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +92,27 @@
 		3B497C5C2A79B0EE008DB50E /* STEM Playground */ = {
 			isa = PBXGroup;
 			children = (
+				B04EEE042A7C418900D98301 /* lavalamp.swift */,
+				B04EEE062A7C43A200D98301 /* lavalamp1.swift */,
+				B0737BCE2A7D4D8B00424AD4 /* lavalamp2.swift */,
+				B0737BD02A7D4F5800424AD4 /* lavalamp3.swift */,
+				B0737BD42A7D509800424AD4 /* lavalamp4.swift */,
+				B0737BD62A7D516B00424AD4 /* lavalamp5.swift */,
+				BE7017FF2A7D77E200ACEF6E /* newrocket.swift */,
+				BE7018012A7D784300ACEF6E /* newrocket1.swift */,
+				BE7018032A7D78C200ACEF6E /* newrocket2.swift */,
+				BE7018052A7D795900ACEF6E /* newrocket3.swift */,
+				BE7018072A7D799A00ACEF6E /* newrocket4.swift */,
+				BE7018092A7D7B5800ACEF6E /* newoobleck1.swift */,
+				BE70180B2A7D7BA100ACEF6E /* newoobleck2.swift */,
+				BE70180D2A7D7C6200ACEF6E /* newoobleck3.swift */,
+				BE70180F2A7D7CBB00ACEF6E /* newoobleck4.swift */,
 				3B497C772A7AEA4B008DB50E /* STEM-Playground-Info.plist */,
 				3B497C5D2A79B0EE008DB50E /* STEM_PlaygroundApp.swift */,
 				3B497C5F2A79B0EE008DB50E /* ContentView.swift */,
 				3B497C6D2A7AC666008DB50E /* DIYhomepage.swift */,
-				3BA21A282A7D765000081C34 /* Playground */,
+				3B497C8E2A7C1BDD008DB50E /* Lab.swift */,
+				3B497C902A7C2318008DB50E /* City.swift */,
 				897859872A7AFCA20017BAEA /* Bryndan Write Book.ttf */,
 				8978598B2A7AFEF00017BAEA /* gbsans.otf */,
 				3B497C612A79B0F1008DB50E /* Assets.xcassets */,
@@ -164,10 +210,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE7018002A7D77E300ACEF6E /* newrocket.swift in Sources */,
+				BE7018102A7D7CBB00ACEF6E /* newoobleck4.swift in Sources */,
+				BE70180C2A7D7BA100ACEF6E /* newoobleck2.swift in Sources */,
+				BE7018082A7D799A00ACEF6E /* newrocket4.swift in Sources */,
+				BE7018042A7D78C200ACEF6E /* newrocket2.swift in Sources */,
 				3B497C602A79B0EE008DB50E /* ContentView.swift in Sources */,
+				B04EEE072A7C43A200D98301 /* lavalamp1.swift in Sources */,
+				B0737BCF2A7D4D8B00424AD4 /* lavalamp2.swift in Sources */,
+				B0737BD12A7D4F5900424AD4 /* lavalamp3.swift in Sources */,
+				BE70180A2A7D7B5800ACEF6E /* newoobleck1.swift in Sources */,
+				B04EEE052A7C418900D98301 /* lavalamp.swift in Sources */,
 				3B497C912A7C2318008DB50E /* City.swift in Sources */,
+				BE7018022A7D784300ACEF6E /* newrocket1.swift in Sources */,
+				B0737BD52A7D509800424AD4 /* lavalamp4.swift in Sources */,
 				3B497C6E2A7AC666008DB50E /* DIYhomepage.swift in Sources */,
 				3B497C5E2A79B0EE008DB50E /* STEM_PlaygroundApp.swift in Sources */,
+				BE7018062A7D795900ACEF6E /* newrocket3.swift in Sources */,
+				BE70180E2A7D7C6200ACEF6E /* newoobleck3.swift in Sources */,
+				B0737BD72A7D516B00424AD4 /* lavalamp5.swift in Sources */,
 				3B497C8F2A7C1BDD008DB50E /* Lab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
