@@ -86,8 +86,6 @@ struct KitchenNew: View {
                             .fontWeight(.heavy)
                             .foregroundColor(Color.white)
                     }
-                    
-                    
                 }
             }
             .padding(.horizontal)

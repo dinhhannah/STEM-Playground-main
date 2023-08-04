@@ -96,29 +96,14 @@
 		3B497C5C2A79B0EE008DB50E /* STEM Playground */ = {
 			isa = PBXGroup;
 			children = (
-				B0737BCE2A7D4D8B00424AD4 /* lavalamp2.swift */,
-				B0737BD02A7D4F5800424AD4 /* lavalamp3.swift */,
-				B0737BD42A7D509800424AD4 /* lavalamp4.swift */,
-				B0737BD62A7D516B00424AD4 /* lavalamp5.swift */,
 				3B497C772A7AEA4B008DB50E /* STEM-Playground-Info.plist */,
 				3B497C5D2A79B0EE008DB50E /* STEM_PlaygroundApp.swift */,
-				B04EEE042A7C418900D98301 /* lavalamp.swift */,
-				BE0F78942A7C996400614758 /* rocket.swift */,
-				BE0F78962A7C99A100614758 /* rocket1.swift */,
-				BE0F78982A7C99C800614758 /* rocket2.swift */,
-				BE0F789A2A7C99E400614758 /* rocket3.swift */,
-				BE0F789C2A7C99FE00614758 /* rocket4.swift */,
-				B04EEE062A7C43A200D98301 /* lavalamp1.swift */,
-				BE0F78A02A7D6CA700614758 /* oobleck.swift */,
-				897859FB2A7D70850017BAEA /* oobleck1.swift */,
-				897859FD2A7D70F20017BAEA /* oobleck2.swift */,
-				897859FF2A7D715E0017BAEA /* oobleck3.swift */,
-				89785A012A7D717A0017BAEA /* oobleck4.swift */,
+				3BA21A232A7D739700081C34 /* Rocket */,
+				3BA21A242A7D743000081C34 /* Lava Lamp */,
+				3BA21A262A7D746100081C34 /* Oobleck */,
 				3B497C5F2A79B0EE008DB50E /* ContentView.swift */,
 				3B497C6D2A7AC666008DB50E /* DIYhomepage.swift */,
-				3B497C8E2A7C1BDD008DB50E /* Lab.swift */,
-				BE0F789E2A7CA0BA00614758 /* KitchenNew.swift */,
-				3B497C902A7C2318008DB50E /* City.swift */,
+				3BA21A282A7D765000081C34 /* Playground */,
 				897859872A7AFCA20017BAEA /* Bryndan Write Book.ttf */,
 				8978598B2A7AFEF00017BAEA /* gbsans.otf */,
 				3B497C612A79B0F1008DB50E /* Assets.xcassets */,
@@ -133,6 +118,53 @@
 				3B497C642A79B0F1008DB50E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3BA21A232A7D739700081C34 /* Rocket */ = {
+			isa = PBXGroup;
+			children = (
+				BE0F78942A7C996400614758 /* rocket.swift */,
+				BE0F78962A7C99A100614758 /* rocket1.swift */,
+				BE0F78982A7C99C800614758 /* rocket2.swift */,
+				BE0F789A2A7C99E400614758 /* rocket3.swift */,
+				BE0F789C2A7C99FE00614758 /* rocket4.swift */,
+			);
+			path = Rocket;
+			sourceTree = "<group>";
+		};
+		3BA21A242A7D743000081C34 /* Lava Lamp */ = {
+			isa = PBXGroup;
+			children = (
+				B04EEE042A7C418900D98301 /* lavalamp.swift */,
+				B04EEE062A7C43A200D98301 /* lavalamp1.swift */,
+				B0737BCE2A7D4D8B00424AD4 /* lavalamp2.swift */,
+				B0737BD02A7D4F5800424AD4 /* lavalamp3.swift */,
+				B0737BD42A7D509800424AD4 /* lavalamp4.swift */,
+				B0737BD62A7D516B00424AD4 /* lavalamp5.swift */,
+			);
+			path = "Lava Lamp";
+			sourceTree = "<group>";
+		};
+		3BA21A262A7D746100081C34 /* Oobleck */ = {
+			isa = PBXGroup;
+			children = (
+				BE0F78A02A7D6CA700614758 /* oobleck.swift */,
+				897859FB2A7D70850017BAEA /* oobleck1.swift */,
+				897859FD2A7D70F20017BAEA /* oobleck2.swift */,
+				897859FF2A7D715E0017BAEA /* oobleck3.swift */,
+				89785A012A7D717A0017BAEA /* oobleck4.swift */,
+			);
+			path = Oobleck;
+			sourceTree = "<group>";
+		};
+		3BA21A282A7D765000081C34 /* Playground */ = {
+			isa = PBXGroup;
+			children = (
+				3B497C8E2A7C1BDD008DB50E /* Lab.swift */,
+				3B497C902A7C2318008DB50E /* City.swift */,
+				BE0F789E2A7CA0BA00614758 /* KitchenNew.swift */,
+			);
+			path = Playground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

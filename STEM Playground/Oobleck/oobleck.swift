@@ -32,7 +32,10 @@ struct oobleck: View {
             
         }
     }
-    
-    
 }
 
+struct oobleck_Previews: PreviewProvider {
+    static var previews: some View {
+        oobleck()
+    }
+}

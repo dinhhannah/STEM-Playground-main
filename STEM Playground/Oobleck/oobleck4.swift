@@ -7,25 +7,32 @@
 
 import SwiftUI
 
-struct oobleck3: View {
+struct oobleck4: View {
     var body: some View {
         NavigationStack {
-            Text("Step 3")
+            Text("Step 4")
                 .fontWeight(.bold)
             
-            Image("add here")
+            Image("oobleck 4")
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fit)
             
-            Text(" \n Now you can play with the oobleck – try stirring it in the bowl with a spoon.")
+            Text(" \n Roll the oobleck into a ball in your hand and see what happens when you stop." )
                 .multilineTextAlignment(.center)
             
             
-           NavigationLink(destination: oobleck4()) {
-                Text("Next")
+            NavigationLink(destination: DIYhomepage ()) {
+                Text("Try another experiment!")
                     .fontWeight(.bold)
-                   .foregroundColor(Color.red)
+                    .foregroundColor(Color.blue)
             }
+            
         }
+    }
+}
+
+struct oobleck4_Previews: PreviewProvider {
+    static var previews: some View {
+      oobleck4()
     }
 }
