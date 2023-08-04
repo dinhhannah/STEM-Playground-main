@@ -68,16 +68,6 @@ struct City: View {
                 }
                     
                 Spacer()
-                
-                NavigationLink(destination: City()){
-                    Text("➡️")
-                        .font(.largeTitle)
-//                        .fontWeight(.heavy)
-//                        .foregroundColor(Color.red)
-//                        .background(Color.yellow)
-//                        .cornerRadius(10)
-                }
-                    
             }
             
         }
