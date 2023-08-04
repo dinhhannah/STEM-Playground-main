@@ -18,7 +18,7 @@ struct lavalamp5: View {
             Text("Show all of your friends and family your new cool lava lamp! Congratulations on completing this science experiment! You rock! \n")
                 .multilineTextAlignment(.center)
             
-            NavigationLink(destination: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Destination@*/Text("Destination")/*@END_MENU_TOKEN@*/) {
+            NavigationLink(destination: DIYhomepage()) {
                 Text("Home")
                     .fontWeight(.bold)
                     .foregroundColor(Color.red)
