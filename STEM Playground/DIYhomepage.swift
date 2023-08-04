@@ -18,7 +18,6 @@ struct DIYhomepage: View {
                     
                     Text("Click on the name of the project you would like to complete!")
                         .multilineTextAlignment(.center)
-                    
                     HStack {
                         VStack {
                             Image("lava lamp")
