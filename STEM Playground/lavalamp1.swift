@@ -10,7 +10,7 @@ import SwiftUI
 struct lavalamp1: View {
     var body: some View {
         NavigationStack {
-            Text("Step 1:")
+            Text("Step 1")
                 .fontWeight(.bold)
             Image("lavalampstep1")
             Text(" \n Fill the bottle about halfway with water and add a few drops of food coloring")

@@ -10,7 +10,7 @@ import SwiftUI
 struct lavalamp4: View {
     var body: some View {
         NavigationStack {
-            Text("Step 4:")
+            Text("Step 4")
                 .fontWeight(.bold)
             Image("churnlavalamp")
             Text("\n Watch as the bottle swirls and churns like a real lava lamp!")
@@ -18,7 +18,7 @@ struct lavalamp4: View {
             NavigationLink(destination: lavalamp5()) {
                 Text("\n Next")
                     .fontWeight(.bold)
-                    .foregroundColor(Color.red)
+                    .foregroundColor(Color.orange)
             }
         }
     }
