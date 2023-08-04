@@ -36,34 +36,35 @@ struct DIYhomepage: View {
                                 .resizable()
                                 .frame(width: 50, height: 200)
                             
-                            Link("Oobleck", destination: URL(string: "https://learning.sciencemuseumgroup.org.uk/resources/oozing-oobleck/#:~:text=Put%20a%20heaped%20amount%20of,what%20happens%20when%20you%20stop")!)
-                                .font(.title3)
-                                .buttonStyle(.borderedProminent)
-                                .tint(buttoncolor)
-                        }
-                        
-                        VStack {
-                            Image("rocket")
-                                .resizable()
-                                .frame(width: 80, height: 200)
+                            NavigationLink(destination: newoobleck1()) {
+                                Text("Oobleck")
+                            }
                             
-                            Link("Rocket", destination: URL(string: "https://www.123homeschool4me.com/soda-rocket-science-experiment-for-kids_49/")!)
-                                .font(.title3)
-                                .buttonStyle(.borderedProminent)
-                                .tint(buttoncolor)
+                            VStack {
+                                Image("rocket")
+                                    .resizable()
+                                    .frame(width: 80, height: 200)
+                                
+                                NavigationLink(destination: newrocket ()) {
+                                    Text("Rocket")
+                                }
+                            }
                         }
+                  //      .padding()
+                 //       .frame(maxWidth: .infinity, maxHeight: .infinity)
+                    //    .background(backgroundColor)
                     }
                 }
-                .padding()
-                .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .background(backgroundColor)
             }
         }
-    }
-    
-    struct DIYhomepage_Previews: PreviewProvider {
-        static var previews: some View {
-            DIYhomepage()
+            }
         }
-    }
-}
+        
+        struct DIYhomepage_Previews: PreviewProvider {
+            static var previews: some View {
+                DIYhomepage()
+            }
+        }
+        
+        
+    
