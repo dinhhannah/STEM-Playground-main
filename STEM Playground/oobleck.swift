@@ -2,12 +2,12 @@
 //  oobleck.swift
 //  STEM Playground
 //
-//  Created by Alena Peethala on 8/4/23.
+//  Created by Shreya Aravind on 8/3/23.
 //
 
 import SwiftUI
 
-struct oobleck: View {
+struct oobleck2: View {
     var body: some View {
         NavigationStack {
             Text("Are you ready to make some oobleck?!\n \n \n")
@@ -32,15 +32,6 @@ struct oobleck: View {
             
         }
     }
-    
-    struct rocket_Previews: PreviewProvider {
-        static var previews: some View {
-            rocket()
-        }
-    }
-    
-    
-    
     
     
 }
